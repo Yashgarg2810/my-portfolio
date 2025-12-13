@@ -1,17 +1,14 @@
 import { ExternalLink, Github, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const projects = [
-  {
-    title: 'ThreatGuard',
-    subtitle: 'Browser Extension for Real-time Web Security',
-    description:
-      'Developed a browser extension to detect phishing websites and prevent data leaks in real time. Integrated Google Safe Browsing API and VirusTotal API for real-time malicious site detection.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Google Safe Browsing API', 'VirusTotal API'],
-    icon: Shield,
-    color: 'text-primary',
-  },
-];
+const projects: Array<{
+  title: string;
+  subtitle: string;
+  description: string;
+  tech: string[];
+  icon: typeof Shield;
+  color: string;
+}> = [];
 
 const ProjectsSection = () => {
   return (
