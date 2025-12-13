@@ -49,8 +49,8 @@ const AboutSection = () => {
             </p>
             <p className="text-muted-foreground leading-relaxed mt-4">
               My journey includes hands-on experience in web development, from converting Figma designs to 
-              responsive websites to building browser extensions for enhanced security. I thrive in collaborative 
-              environments and continuously seek opportunities to grow and make an impact.
+              responsive websites. I thrive in collaborative environments and continuously seek opportunities 
+              to grow and make an impact.
             </p>
           </div>
 
