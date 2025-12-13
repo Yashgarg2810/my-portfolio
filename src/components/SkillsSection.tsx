@@ -22,7 +22,7 @@ const SkillsSection = () => {
             animationDelay: `${index * 0.1}s`
           }}>
                 <h4 className="font-mono text-primary text-sm mb-4">
-                  <span className="text-muted-foreground">// </span>
+                  <span className="text-muted-foreground"></span>
                   {category}
                 </h4>
                 <div className="flex flex-wrap gap-3">

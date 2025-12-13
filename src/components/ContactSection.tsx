@@ -54,10 +54,7 @@ const ContactSection = () => {
           {/* CTA */}
           <div className="text-center">
             <Button asChild size="lg" className="font-mono animate-pulse-glow">
-              <a href="mailto:yashgarg2810@gmail.com">
-                <Send className="mr-2" size={18} />
-                Send Message
-              </a>
+              
             </Button>
           </div>
 
