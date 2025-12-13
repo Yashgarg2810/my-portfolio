@@ -6,7 +6,8 @@ const AboutSection = () => {
           {/* Section Title */}
           <div className="text-center mb-16">
             <h2 className="font-mono text-primary mb-2">
-          </h2>
+              &lt;about /&gt;
+            </h2>
             <h3 className="text-4xl font-bold">Who I Am</h3>
           </div>
 
