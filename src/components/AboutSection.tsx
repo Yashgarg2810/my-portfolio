@@ -1,13 +1,12 @@
 import { User, Target, Lightbulb } from 'lucide-react';
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-24 relative">
+  return <section id="about" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}
           <div className="text-center mb-16">
-            <h2 className="font-mono text-primary mb-2">&lt;about&gt;</h2>
+            <h2 className="font-mono text-primary mb-2">
+          </h2>
             <h3 className="text-4xl font-bold">Who I Am</h3>
           </div>
 
@@ -56,12 +55,10 @@ const AboutSection = () => {
 
           {/* Closing tag */}
           <div className="text-center mt-8">
-            <span className="font-mono text-primary">&lt;/about&gt;</span>
+            <span className="font-mono text-primary"></span>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;

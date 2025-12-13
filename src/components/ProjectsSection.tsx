@@ -1,6 +1,5 @@
 import { ExternalLink, Github, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const projects: Array<{
   title: string;
   subtitle: string;
@@ -9,25 +8,20 @@ const projects: Array<{
   icon: typeof Shield;
   color: string;
 }> = [];
-
 const ProjectsSection = () => {
-  return (
-    <section id="projects" className="py-24 bg-secondary/20 relative">
+  return <section id="projects" className="py-24 bg-secondary/20 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}
           <div className="text-center mb-16">
-            <h2 className="font-mono text-primary mb-2">&lt;projects&gt;</h2>
+            <h2 className="font-mono text-primary mb-2">
+          </h2>
             <h3 className="text-4xl font-bold">Featured Work</h3>
           </div>
 
           {/* Projects Grid */}
           <div className="grid gap-8">
-            {projects.map((project, index) => (
-              <div
-                key={project.title}
-                className="card-glow bg-card p-8 rounded-lg border border-border hover:border-primary/50 transition-all duration-300 group"
-              >
+            {projects.map((project, index) => <div key={project.title} className="card-glow bg-card p-8 rounded-lg border border-border hover:border-primary/50 transition-all duration-300 group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-4">
                     <div className={`p-3 rounded-lg bg-primary/10 ${project.color}`}>
@@ -54,17 +48,11 @@ const ProjectsSection = () => {
                 <p className="text-muted-foreground mb-6 leading-relaxed">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-3 py-1 bg-secondary rounded font-mono text-xs text-primary border border-primary/20"
-                    >
+                  {project.tech.map(tech => <span key={tech} className="px-3 py-1 bg-secondary rounded font-mono text-xs text-primary border border-primary/20">
                       {tech}
-                    </span>
-                  ))}
+                    </span>)}
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
 
           {/* More projects note */}
@@ -82,12 +70,10 @@ const ProjectsSection = () => {
 
           {/* Closing tag */}
           <div className="text-center mt-8">
-            <span className="font-mono text-primary">&lt;/projects&gt;</span>
+            <span className="font-mono text-primary"></span>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProjectsSection;
