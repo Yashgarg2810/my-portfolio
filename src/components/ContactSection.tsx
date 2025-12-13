@@ -22,7 +22,7 @@ const contactInfo = [{
   href: 'https://github.com/Yashgarg2810'
 }];
 const ContactSection = () => {
-  return <section id="contact" className="py-16 bg-secondary/20 relative">
+  return <section id="contact" className="py-24 bg-secondary/20 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}

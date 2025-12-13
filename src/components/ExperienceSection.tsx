@@ -1,6 +1,6 @@
 import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const ExperienceSection = () => {
-  return <section id="experience" className="py-16 relative">
+  return <section id="experience" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}
