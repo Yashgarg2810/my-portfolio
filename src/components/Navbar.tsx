@@ -32,7 +32,8 @@ const Navbar = () => {
   return <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-background/90 backdrop-blur-md border-b border-border' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="font-mono text-xl font-bold">YG<span className="text-primary">&lt;</span>
+          <a href="#" className="font-mono text-xl font-bold">
+          <span className="text-primary">&lt;</span>
             YG
             <span className="text-primary"></span>
           </a>
