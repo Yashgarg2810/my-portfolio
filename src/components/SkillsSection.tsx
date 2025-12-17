@@ -1,5 +1,5 @@
 const skills = {
-  'Programming Languages': ['Java', 'C', 'C++'],
+  'Programming Languages': ['Java', 'C'],
   'Web Technologies': ['HTML', 'CSS', 'JavaScript', 'React.js'],
   'Database': ['MySQL'],
   'Developer Tools': ['Git', 'Maven'],
