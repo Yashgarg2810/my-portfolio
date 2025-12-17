@@ -14,7 +14,7 @@ const HeroSection = () => {
           {/* Profile Photo */}
           <div className="mb-8 animate-fade-up" style={{ animationDelay: '0.1s' }}>
             <div className="relative inline-block">
-              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-primary/50 overflow-hidden bg-card flex items-center justify-center shadow-glow">
+              <div className="w-40 h-40 md:w-52 md:h-52 rounded-full border-2 border-primary/50 overflow-hidden bg-card flex items-center justify-center shadow-glow">
                 <img 
                   src={profilePhoto} 
                   alt="Yash Garg" 
