@@ -10,6 +10,21 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Profile Photo */}
+          <div className="mb-8 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            <div className="relative inline-block">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-primary/50 overflow-hidden bg-card flex items-center justify-center shadow-glow">
+                {/* Placeholder - replace src with your photo */}
+                <img 
+                  src="/placeholder.svg" 
+                  alt="Yash Garg" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute inset-0 rounded-full border-2 border-primary/20 animate-pulse-glow" />
+            </div>
+          </div>
+
           {/* Terminal-style greeting */}
           <div className="font-mono text-primary mb-6 animate-fade-up" style={{
           animationDelay: '0.2s'
