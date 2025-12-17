@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profilePhoto from '@/assets/profile-photo.png';
 const HeroSection = () => {
   return <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background gradient effects */}
@@ -14,9 +15,8 @@ const HeroSection = () => {
           <div className="mb-8 animate-fade-up" style={{ animationDelay: '0.1s' }}>
             <div className="relative inline-block">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-primary/50 overflow-hidden bg-card flex items-center justify-center shadow-glow">
-                {/* Placeholder - replace src with your photo */}
                 <img 
-                  src="/placeholder.svg" 
+                  src={profilePhoto} 
                   alt="Yash Garg" 
                   className="w-full h-full object-cover"
                 />
