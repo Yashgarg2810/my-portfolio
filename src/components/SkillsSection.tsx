@@ -1,6 +1,6 @@
 const skills = {
   'Programming Languages': ['Java', 'C', 'C++'],
-  'Web Technologies': ['HTML', 'CSS', 'JS', 'React.js', 'Node.js', 'Express.js'],
+  'Web Technologies': ['HTML', 'CSS', 'JavaScript', 'React.js'],
   'Database': ['MySQL'],
   'Developer Tools': ['Git', 'Maven'],
   'Operating System': ['Windows']
@@ -18,21 +18,21 @@ const SkillsSection = () => {
           </div>
 
           {/* Skills Grid */}
-          <div className="grid gap-8">
+          <div className="grid md:grid-cols-2 gap-6">
             {Object.entries(skills).map(([category, skillList], index) => (
               <div
                 key={category}
-                className="card-glow bg-card p-6 rounded-lg border border-border hover:border-primary/50 transition-all duration-300"
+                className="card-glow bg-card p-6 rounded-xl border border-border hover:border-primary/50 transition-all duration-300"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <h4 className="font-mono text-primary text-sm mb-4">
+                <h4 className="text-primary text-base font-semibold mb-4 tracking-wide">
                   {category}
                 </h4>
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-2">
                   {skillList.map((skill) => (
                     <span
                       key={skill}
-                      className="px-3 py-1.5 bg-primary/10 text-primary border border-primary/30 rounded-md text-sm font-mono hover:bg-primary/20 transition-colors"
+                      className="px-4 py-2 bg-primary/10 text-foreground border border-primary/20 rounded-lg text-sm font-medium hover:bg-primary/20 hover:border-primary/40 transition-all duration-200"
                     >
                       {skill}
                     </span>
