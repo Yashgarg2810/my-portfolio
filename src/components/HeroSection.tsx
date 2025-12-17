@@ -12,14 +12,12 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Profile Photo */}
-          <div className="mb-8 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+          <div className="mb-8 animate-fade-up" style={{
+          animationDelay: '0.1s'
+        }}>
             <div className="relative inline-block">
               <div className="w-40 h-40 md:w-52 md:h-52 rounded-full border-2 border-primary/50 overflow-hidden bg-card flex items-center justify-center shadow-glow">
-                <img 
-                  src={profilePhoto} 
-                  alt="Yash Garg" 
-                  className="w-full h-full object-cover"
-                />
+                <img src={profilePhoto} alt="Yash Garg" className="w-full h-full object-cover" />
               </div>
               <div className="absolute inset-0 rounded-full border-2 border-primary/20 animate-pulse-glow" />
             </div>

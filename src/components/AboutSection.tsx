@@ -7,7 +7,8 @@ const AboutSection = () => {
           <div className="text-center mb-16">
             <h2 className="font-mono text-primary mb-2">
           </h2>
-            <h3 className="text-4xl font-bold">Who I Am</h3>
+            <h3 className="text-4xl font-bold">
+          </h3>
           </div>
 
           {/* About Content */}
@@ -15,9 +16,7 @@ const AboutSection = () => {
             <div className="card-glow bg-card p-6 rounded-lg border border-border hover:border-primary/50 transition-all duration-300">
               <User className="text-primary mb-4" size={32} />
               <h4 className="font-semibold text-lg mb-2">Developer</h4>
-              <p className="text-muted-foreground text-sm">
-                Strong proficiency in Java with experience in full-stack web development using modern technologies.
-              </p>
+              <p className="text-muted-foreground text-sm">Strong proficiency in Java with experience in web development using modern technologies.</p>
             </div>
 
             <div className="card-glow bg-card p-6 rounded-lg border border-border hover:border-primary/50 transition-all duration-300">

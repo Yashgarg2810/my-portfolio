@@ -26,9 +26,7 @@ const SkillsSection = () => {
                   {category}
                 </h4>
                 <div className="flex flex-wrap gap-3">
-                  {skillList.map(skill => <span key={skill} className="px-4 py-2 bg-secondary rounded-md font-mono text-sm text-foreground border border-border hover:border-primary hover:text-primary transition-all duration-300 cursor-default">
-                      {skill}
-                    </span>)}
+                  {skillList.map(skill => {})}
                 </div>
               </div>)}
           </div>
