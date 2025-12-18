@@ -27,7 +27,6 @@ const HeroSection = () => {
           <div className="font-mono text-primary mb-6 animate-fade-up" style={{
           animationDelay: '0.2s'
         }}>
-          <span className="text-muted-foreground">$</span> echo "Hello, World!"
           </div>
 
           {/* Name */}
