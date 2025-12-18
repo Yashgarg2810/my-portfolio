@@ -1,5 +1,7 @@
 import { ExternalLink, Github, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Brain } from 'lucide-react';
+
 const projects: Array<{
   title: string;
   subtitle: string;
@@ -7,7 +9,16 @@ const projects: Array<{
   tech: string[];
   icon: typeof Shield;
   color: string;
-}> = [];
+}> = [
+  {
+    title: 'Cognimation',
+    subtitle: 'AI Learning Assistant',
+    description: 'Led the React.js frontend development and Spline 3D integration for an innovative AI learning platform. The project leverages Python and Stability AI to power voice-to-image generation capabilities, creating an immersive educational experience.',
+    tech: ['React', 'Python', 'Spline', 'Stability AI'],
+    icon: Brain,
+    color: 'text-primary',
+  },
+];
 const ProjectsSection = () => {
   return <section id="projects" className="py-24 bg-secondary/20 relative">
       <div className="container mx-auto px-6">
