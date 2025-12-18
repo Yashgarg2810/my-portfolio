@@ -33,8 +33,6 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="font-mono text-xl font-bold">
-          <span className="text-primary">&lt;</span>
-            YG
             <span className="text-primary"></span>
           </a>
 
