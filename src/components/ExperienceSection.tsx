@@ -1,21 +1,13 @@
 import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react';
-
 const ExperienceSection = () => {
-  const responsibilities = [
-    "Converted Figma designs into responsive multi-page websites using HTML, CSS, and Bootstrap",
-    "Performed Reverse Engineering of website components using HTML, CSS, JS, and React",
-    "Worked on WordPress live sites with custom CSS, icon updates, and blog posting",
-    "Tested mobile APK for QR/Barcode scanning and AI-based ingredient analysis",
-    "Collaborated on site-building platform development in WordPress"
-  ];
-
-  return (
-    <section id="experience" className="py-24 relative">
+  const responsibilities = ["Converted Figma designs into responsive multi-page websites using HTML, CSS, and Bootstrap", "Performed Reverse Engineering of website components using HTML, CSS, JS, and React", "Worked on WordPress live sites with custom CSS, icon updates, and blog posting", "Tested mobile APK for QR/Barcode scanning and AI-based ingredient analysis", "Collaborated on site-building platform development in WordPress"];
+  return <section id="experience" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}
           <div className="text-center mb-16">
-            <h2 className="font-mono text-primary mb-2">&lt;experience&gt;</h2>
+            <h2 className="font-mono text-primary mb-2">
+          </h2>
             <h3 className="text-4xl font-bold">Work Experience</h3>
           </div>
 
@@ -55,28 +47,24 @@ const ExperienceSection = () => {
                 Key Responsibilities
               </h5>
               <ul className="space-y-4">
-                {responsibilities.map((item, index) => (
-                  <li key={index} className="flex items-start gap-3 group">
+                {responsibilities.map((item, index) => <li key={index} className="flex items-start gap-3 group">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-0.5 group-hover:bg-primary/20 transition-colors">
                       <span className="text-primary text-xs font-mono">{index + 1}</span>
                     </span>
                     <span className="text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors">
                       {item}
                     </span>
-                  </li>
-                ))}
+                  </li>)}
               </ul>
             </div>
           </div>
 
           {/* Closing tag */}
           <div className="text-center mt-8">
-            <span className="font-mono text-primary">&lt;/experience&gt;</span>
+            <span className="font-mono text-primary"></span>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ExperienceSection;
